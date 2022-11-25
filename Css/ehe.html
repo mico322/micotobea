@@ -1,6 +1,6 @@
 <!DOCTYPE html>
- <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
+ <html lang="en"><head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="./css/yes.css">  <style type="text/css">
 @font-face {
   font-weight: 400;
@@ -110,6 +110,13 @@
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
 @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
@@ -124,7 +131,6 @@
 
         <div class="kilig">
                 
-                  
                   <p class="ay">Biya</p>
    <img src="./css/images.jpg" style="width: 250px;" alt="">
        
